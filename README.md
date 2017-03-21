@@ -4,7 +4,7 @@
 Based on ISCA 2017 HotCalls paper, that can be found at (http://www.ofirweisse.com/previous_work.html).
 
 ### Build and run tests
-`make; ./test_hotcalls'
+`make; ./test_hotcalls`
 
 The main benchmark function is at App/App.cpp: HotCallsTester::Run()
 
