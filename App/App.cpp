@@ -86,7 +86,7 @@ sgx_enclave_id_t globalEnclaveID;
 
 typedef sgx_status_t (*EcallFunction)(sgx_enclave_id_t, void* );
 
-#define PERFORMANCE_MEASUREMENT_NUM_REPEATS 100
+#define PERFORMANCE_MEASUREMENT_NUM_REPEATS 10000
 #define MEASUREMENTS_ROOT_DIR               "measurments"
 
 using namespace std;
